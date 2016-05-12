@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2C666651CE4988E004E3E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C666641CE4988E004E3E64 /* AppDelegate.swift */; };
+		E2C666671CE4988E004E3E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C666661CE4988E004E3E64 /* ViewController.swift */; };
+		E2C6666A1CE4988E004E3E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C666681CE4988E004E3E64 /* Main.storyboard */; };
+		E2C6666D1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2C6666B1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodeld */; };
+		E2C6666F1CE4988E004E3E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6666E1CE4988E004E3E64 /* Assets.xcassets */; };
+		E2C666721CE4988E004E3E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2C666701CE4988E004E3E64 /* LaunchScreen.storyboard */; };
+		E2C6667D1CE4988E004E3E64 /* Ancient_IngushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6667C1CE4988E004E3E64 /* Ancient_IngushTests.swift */; };
+		E2C666881CE4988E004E3E64 /* Ancient_IngushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C666871CE4988E004E3E64 /* Ancient_IngushUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2C666791CE4988E004E3E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C666591CE4988E004E3E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C666601CE4988E004E3E64;
+			remoteInfo = "Ancient Ingush";
+		};
+		E2C666841CE4988E004E3E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2C666591CE4988E004E3E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2C666601CE4988E004E3E64;
+			remoteInfo = "Ancient Ingush";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2C666611CE4988E004E3E64 /* Ancient Ingush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ancient Ingush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C666641CE4988E004E3E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2C666661CE4988E004E3E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2C666691CE4988E004E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2C6666C1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ancient_Ingush.xcdatamodel; sourceTree = "<group>"; };
+		E2C6666E1CE4988E004E3E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2C666711CE4988E004E3E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2C666731CE4988E004E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C666781CE4988E004E3E64 /* Ancient IngushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ancient IngushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C6667C1CE4988E004E3E64 /* Ancient_IngushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ancient_IngushTests.swift; sourceTree = "<group>"; };
+		E2C6667E1CE4988E004E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2C666831CE4988E004E3E64 /* Ancient IngushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ancient IngushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C666871CE4988E004E3E64 /* Ancient_IngushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ancient_IngushUITests.swift; sourceTree = "<group>"; };
+		E2C666891CE4988E004E3E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2C6665E1CE4988E004E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C666751CE4988E004E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C666801CE4988E004E3E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2C666581CE4988E004E3E64 = {
+			isa = PBXGroup;
+			children = (
+				E2C666631CE4988E004E3E64 /* Ancient Ingush */,
+				E2C6667B1CE4988E004E3E64 /* Ancient IngushTests */,
+				E2C666861CE4988E004E3E64 /* Ancient IngushUITests */,
+				E2C666621CE4988E004E3E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2C666621CE4988E004E3E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2C666611CE4988E004E3E64 /* Ancient Ingush.app */,
+				E2C666781CE4988E004E3E64 /* Ancient IngushTests.xctest */,
+				E2C666831CE4988E004E3E64 /* Ancient IngushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2C666631CE4988E004E3E64 /* Ancient Ingush */ = {
+			isa = PBXGroup;
+			children = (
+				E2C666641CE4988E004E3E64 /* AppDelegate.swift */,
+				E2C666661CE4988E004E3E64 /* ViewController.swift */,
+				E2C666681CE4988E004E3E64 /* Main.storyboard */,
+				E2C6666E1CE4988E004E3E64 /* Assets.xcassets */,
+				E2C666701CE4988E004E3E64 /* LaunchScreen.storyboard */,
+				E2C666731CE4988E004E3E64 /* Info.plist */,
+				E2C6666B1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodeld */,
+			);
+			path = "Ancient Ingush";
+			sourceTree = "<group>";
+		};
+		E2C6667B1CE4988E004E3E64 /* Ancient IngushTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C6667C1CE4988E004E3E64 /* Ancient_IngushTests.swift */,
+				E2C6667E1CE4988E004E3E64 /* Info.plist */,
+			);
+			path = "Ancient IngushTests";
+			sourceTree = "<group>";
+		};
+		E2C666861CE4988E004E3E64 /* Ancient IngushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2C666871CE4988E004E3E64 /* Ancient_IngushUITests.swift */,
+				E2C666891CE4988E004E3E64 /* Info.plist */,
+			);
+			path = "Ancient IngushUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2C666601CE4988E004E3E64 /* Ancient Ingush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C6668C1CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient Ingush" */;
+			buildPhases = (
+				E2C6665D1CE4988E004E3E64 /* Sources */,
+				E2C6665E1CE4988E004E3E64 /* Frameworks */,
+				E2C6665F1CE4988E004E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ancient Ingush";
+			productName = "Ancient Ingush";
+			productReference = E2C666611CE4988E004E3E64 /* Ancient Ingush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2C666771CE4988E004E3E64 /* Ancient IngushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C6668F1CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient IngushTests" */;
+			buildPhases = (
+				E2C666741CE4988E004E3E64 /* Sources */,
+				E2C666751CE4988E004E3E64 /* Frameworks */,
+				E2C666761CE4988E004E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C6667A1CE4988E004E3E64 /* PBXTargetDependency */,
+			);
+			name = "Ancient IngushTests";
+			productName = "Ancient IngushTests";
+			productReference = E2C666781CE4988E004E3E64 /* Ancient IngushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2C666821CE4988E004E3E64 /* Ancient IngushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2C666921CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient IngushUITests" */;
+			buildPhases = (
+				E2C6667F1CE4988E004E3E64 /* Sources */,
+				E2C666801CE4988E004E3E64 /* Frameworks */,
+				E2C666811CE4988E004E3E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2C666851CE4988E004E3E64 /* PBXTargetDependency */,
+			);
+			name = "Ancient IngushUITests";
+			productName = "Ancient IngushUITests";
+			productReference = E2C666831CE4988E004E3E64 /* Ancient IngushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2C666591CE4988E004E3E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "YOUTIR LLC";
+				TargetAttributes = {
+					E2C666601CE4988E004E3E64 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PTMC48VVFY;
+					};
+					E2C666771CE4988E004E3E64 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PTMC48VVFY;
+						TestTargetID = E2C666601CE4988E004E3E64;
+					};
+					E2C666821CE4988E004E3E64 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PTMC48VVFY;
+						TestTargetID = E2C666601CE4988E004E3E64;
+					};
+				};
+			};
+			buildConfigurationList = E2C6665C1CE4988E004E3E64 /* Build configuration list for PBXProject "Ancient Ingush" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2C666581CE4988E004E3E64;
+			productRefGroup = E2C666621CE4988E004E3E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2C666601CE4988E004E3E64 /* Ancient Ingush */,
+				E2C666771CE4988E004E3E64 /* Ancient IngushTests */,
+				E2C666821CE4988E004E3E64 /* Ancient IngushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2C6665F1CE4988E004E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C666721CE4988E004E3E64 /* LaunchScreen.storyboard in Resources */,
+				E2C6666F1CE4988E004E3E64 /* Assets.xcassets in Resources */,
+				E2C6666A1CE4988E004E3E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C666761CE4988E004E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C666811CE4988E004E3E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2C6665D1CE4988E004E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6666D1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodeld in Sources */,
+				E2C666671CE4988E004E3E64 /* ViewController.swift in Sources */,
+				E2C666651CE4988E004E3E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C666741CE4988E004E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6667D1CE4988E004E3E64 /* Ancient_IngushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2C6667F1CE4988E004E3E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C666881CE4988E004E3E64 /* Ancient_IngushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2C6667A1CE4988E004E3E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C666601CE4988E004E3E64 /* Ancient Ingush */;
+			targetProxy = E2C666791CE4988E004E3E64 /* PBXContainerItemProxy */;
+		};
+		E2C666851CE4988E004E3E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2C666601CE4988E004E3E64 /* Ancient Ingush */;
+			targetProxy = E2C666841CE4988E004E3E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2C666681CE4988E004E3E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C666691CE4988E004E3E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2C666701CE4988E004E3E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2C666711CE4988E004E3E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2C6668A1CE4988E004E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2C6668B1CE4988E004E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2C6668D1CE4988E004E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ancient Ingush/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-Ingush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2C6668E1CE4988E004E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ancient Ingush/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-Ingush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E2C666901CE4988E004E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ancient IngushTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-IngushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ancient Ingush.app/Ancient Ingush";
+			};
+			name = Debug;
+		};
+		E2C666911CE4988E004E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Ancient IngushTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-IngushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ancient Ingush.app/Ancient Ingush";
+			};
+			name = Release;
+		};
+		E2C666931CE4988E004E3E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ancient IngushUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-IngushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ancient Ingush";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2C666941CE4988E004E3E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Ancient IngushUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youtir.Ancient-IngushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Ancient Ingush";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2C6665C1CE4988E004E3E64 /* Build configuration list for PBXProject "Ancient Ingush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C6668A1CE4988E004E3E64 /* Debug */,
+				E2C6668B1CE4988E004E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2C6668C1CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient Ingush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C6668D1CE4988E004E3E64 /* Debug */,
+				E2C6668E1CE4988E004E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2C6668F1CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient IngushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C666901CE4988E004E3E64 /* Debug */,
+				E2C666911CE4988E004E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E2C666921CE4988E004E3E64 /* Build configuration list for PBXNativeTarget "Ancient IngushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2C666931CE4988E004E3E64 /* Debug */,
+				E2C666941CE4988E004E3E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2C6666B1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2C6666C1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodel */,
+			);
+			currentVersion = E2C6666C1CE4988E004E3E64 /* Ancient_Ingush.xcdatamodel */;
+			path = Ancient_Ingush.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E2C666591CE4988E004E3E64 /* Project object */;
+}
